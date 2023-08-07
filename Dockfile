@@ -1,0 +1,4 @@
+FROM openjdk:17
+COPY ./bin /travel
+WORKDIR /travel
+ENTRYPOINT ["java","com.TourAndTravel"]
